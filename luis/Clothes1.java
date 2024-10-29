@@ -9,6 +9,6 @@ public class Clothes1 extends Item{
     @Override
     public void applyEffect(MainChar character){
         System.out.println("Max HP increasing to 20");
-        character.setMaxHp(additionalHp);
+        character.setMaxHp(character.getMaxHp() + additionalHp);
     }
 }
